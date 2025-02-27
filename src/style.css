@@ -1,0 +1,101 @@
+body {
+    background-image: url("louis-background-photo.JPG");
+    background-size: cover;
+    font-family: "Bebas Neue", serif;
+    background-color: rgb(40, 32, 25);
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(40, 32, 25);
+    margin-bottom: 15px;
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 700px;
+    position: relative;
+}
+
+.form-container {
+    padding: 45px;
+    margin-top: 120px;
+    background-color: #f5f2ef7c;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px 0px rgba(40, 32, 25, 0.03);
+    color: #5b4b3a;
+}
+
+form {
+    display: flex;
+}
+
+.hint {
+    line-height: 1.5px;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.name {
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+    font-size: 15px;
+}
+
+.submit-button {
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    background-color: #5b4b3a;
+    color: #f5f2ef;
+    padding: 16px 24px;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(40, 32, 25, 0.2);
+}
+
+.submit-button:hover {
+    background-color: #886c52;
+    cursor: pointer;
+}
+
+.lyric {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    list-style: 24px;
+    border-radius: 10px;
+    background-color: #f5f2ef9c;
+    color: rgb(40, 32, 25);
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+footer {
+    color: #f5f2ef70;
+    font-size: 13px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+}
+
+a {
+    color: #f5f2ef;
+    font-weight: bold;
+}

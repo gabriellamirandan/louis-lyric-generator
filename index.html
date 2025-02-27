@@ -4,31 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Louis Lyrics Generator</title>
     <link rel="stylesheet" href="src/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Louis has a message for you:</h1>
-    </header>
-    <main>
-        <div class="form-container">
-            <form action="" id="lyric-generator-form">
-                <input type="text" placeholder="Enter your name" autocomplete="off" />
-                <input type="Submit" class="submit-button" />
-            </form>
-        </div>
+    <div class="container">
+        <header>
+            <h1>Louis Tomlinson has a message for you:</h1>
+        </header>
+        <main>
+            <div class="form-container">
+                <form action="" id="name-form">
+                    <input type="text" placeholder="Enter your name" autocomplete="off" class="name" id="name" />
+                    <input type="Submit" class="submit-button" />
+                </form>
+            </div>
 
-        <div class="lyric hidden" id="lyric">
-        </div>
+            <div class="lyric hidden" id="lyric">
+            </div>
 
-    </main>
+        </main>
 
-    <footer>This was coded by <a href="https://github.com/gabriellamirandan">Gabi Miranda</a>, is open-sourced on <a
-            href="https://github.com/gabriellamirandan/poem-generator">Github</a> and is hosted on <a
-            href="https://gabi-poem-generator.netlify.app/">Netlify</a></footer>
+        <footer>This was coded by <a href="https://github.com/gabriellamirandan">Gabi Miranda</a>, is open-sourced on <a
+                href="https://github.com/gabriellamirandan/poem-generator">Github</a> and is hosted on <a
+                href="https://gabi-poem-generator.netlify.app/">Netlify</a></footer>
     </div>
+
     <script src="src/index.js"></script>
 </body>
 
